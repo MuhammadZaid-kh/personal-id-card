@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        body{
+            text-align: center;
+        }
+         #div2{
+            text-align: center;
+            border: 1px solid black;
+            border-radius: 8px;
+            background-color: yellow;
+            width: 300px;
+            margin: auto;}
+            
+            hr{
+            width: 50%;
+            border: 1px solid black;}
+            
+            #d1{
+                width: 40%;
+                margin-right: ;
+                margin-left: 90px ;
+                background-color: red;
+                border-radius: 10px;
+                color: white;
+            }
+            #d2{
+               width: 40%;
+                margin-right: ;
+                margin-left: 90px ;
+                background-color: blue;
+                border-radius: 10px; 
+                color: white;
+                
+            }
+         
+         #d2 a{
+             color: black;
+             border-radius: 10px; 
+             background-color: yellow;
+             text-decoration: none;
+             padding-left: 5px;
+             padding-right: 5px;
+             
+             
+         }
+            #d3{
+               width: 40%;
+                margin-right: ;
+                margin-left: 90px ;
+                background-color: orange;
+                border-radius: 10px; 
+                color: white;
+             
+             
+         }
+         #d3 a{
+             color: black;
+             border-radius: 10px; 
+             background-color: lightblue;
+             text-decoration: none;
+             padding-left: 5px;
+             padding-right: 5px;}
+             
+         label{
+             width: 100px;
+             display: inline-block;
+             
+         }
+         input {
+             
+             display: inline-block;
+             margin-right: 5px;
+             margin-bottom: 5px;
+         }
+         
+             
+       
+         details{
+             margin: 3px;
+         }
+        #sub{
+            background-color: blue;
+            border-radius: 10px;
+            color: white;
+           border: 1px solid blue;
+            padding-right: 10px;
+            padding-left: 10px;
+            outline: 1px solid black;
+            outline-offset: 1px;
+            margin-top: 12px;
+            margin-bottom: 12px;
+        } 
+    </style>
+</head>
+<body>
+    <div id="div2">
+        <h1>Contact Us</h1>
+        <hr>
+        <details id="d1">
+            <summary>Address</summary>
+            <p>Karachi, Sindh Pakistan</p>
+        </details>
+        
+        <details id="d2">
+            <summary>&nbsp GitHub</summary>
+            <a href="https:github com/muhmmadzaid-kh">Go to profile</a>
+        </details>
+        
+        <details id="d3">
+            <summary>Whatsapp</summary>
+            <a href="#">My Whatsapp</a>
+        </details>
+        <hr>
+        <h3>Write Your Massage</h3>
+        
+        <form action="index.html">
+            <label for="name">Name</label>
+            <input id="name" type="text">
+            
+            <label for="email">Email</label>
+            <input id="email" type="email">
+            
+            <label for="msg">Massage</label>
+            <input id="msg">
+            
+            <input id="sub" type="submit">
+        </form>
+    </div>
+</body>
+</html>

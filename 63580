@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ID Card</title>
+    <style>
+        body{
+            font-family: tahoma, verdana, 'segoe ui', sans-serif;
+        }
+        hr{
+            width: 50%;
+            border: 1px solid black;
+        }
+        p{
+            line-height: 1rem;        
+            
+        }
+        #div1{
+            text-align: center;
+            border: 1px solid black;
+            border-radius: 8px;
+            background-color: yellow;
+            width: 300px;
+            margin: auto;
+        }
+        
+        #photo{
+          border: 1px solid black;
+          border-radius: 50%;
+          outline: 1px solid black;
+          outline-offset: 2px;
+          margin: 10px;
+        }
+        .img2{
+            border-radius: 50%;
+        }
+        #sp1{
+            background-color: blue;
+            color: white;
+            padding: 5px;
+            border-radius: 5px;
+            
+        }
+        #sp2{
+            background-color: red;
+            color: white;
+            padding: 5px;
+            border-radius: 5px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div id="div1">
+        <img id="photo" src="photo.jpg" width="100">
+        <h1>Muhammad Zaid</h1>
+        <h3>Web Developer</h3>
+        <hr
+        <p>Aspiring coder and tech learning</p>
+        <p>I love to build awesome website!</p>
+             <a href="contact.html">
+            <button id="sp1">Contact Me</button></a>
+            <a href="https://github.com/MuhammadZaid-kh">
+            <button id="sp2">View Projects</button></a>
+            <hr>
+            <a href="https://www.facebook.com/profile.php?id=100073474484626" target="_blank" rel="noopener noreferrer">
+            <img class="img2" src="fb.png" alt="Facebook" width="30"></a>
+             <img class="img2" src="tw.png" alt="Twitter" width="30">
+              <img class="img2" src="ins.png" alt="Instagram" width="30">
+    </div>
+</body>
+</html>
