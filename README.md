@@ -12,5 +12,5 @@ Asalam-o-Alaikum! My name is **Muhammad Zaid**. This is a simple yet elegant ID 
 * **HTML5:** Structure of the card.
 * **CSS3:** Styling, borders, and layouts.
 
-##Preview
+## Preview
 * **link:** : *https://muhammadzaid-kh.github.io/personal-id-card/*
